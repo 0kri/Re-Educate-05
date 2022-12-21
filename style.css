@@ -4,8 +4,53 @@
     padding: 0;
 }
 
+section {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+}
+
 .left {
     width: 400px;
     height: 900px;
     background-color: #2F80ED;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.logo {
+    height: 20.551664352416992px;
+    width: 31.666669845581055px;
+    display: inline-block;
+}
+
+.mainp {
+    height: 36px;
+    width: 208px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.first-button, .second-button {
+    height: 60px;
+    width: 300px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.first-button {
+}
+
+.second-button {
+}
+
+.right {
+    background-color: #E5E5E5;
+    display: inline-block;
+    width: 1040px;
+    height: 900px;
 }
