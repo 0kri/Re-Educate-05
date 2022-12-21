@@ -22,11 +22,17 @@ section {
     height: 20.551664352416992px;
     width: 31.666669845581055px;
     display: inline-block;
+    position: absolute;
+    left: 47.17px;
+    top: 72.72px;
 }
 
 .mainp {
-    height: 36px;
+    position: absolute;
     width: 208px;
+    height: 36px;
+    left: 98px;
+    top: 64px;
     display: inline-block;
     color: #FFFFFF;
     font-style: normal;
@@ -40,12 +46,37 @@ section {
     width: 300px;
     background-color: #333333;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .first-button {
+    position: absolute;
+    top: 249px;
+    left: 44px;
 }
 
 .second-button {
+    position: absolute;
+    top: 339px;
+    left: 44px;
+}
+
+.signup {
+    position: absolute;
+    left: 106px;
+    top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.login {
+    position: absolute;
+    left: 112px;
+    top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .right {
